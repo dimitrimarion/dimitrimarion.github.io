@@ -1,0 +1,14 @@
+<header class="page-header">
+    <h1>
+        <a href="/">Dimitri Marion</a>
+    </h1>
+    <nav>
+        <ul class="nav-menu">
+            {% for item in site.data.navigation %}
+            <a href="{{ item.link }}" {% if page.url == item.link %}style="text-decoration: underline;" {% endif %}>
+                {{ item.name }}
+            </a>
+            {% endfor %}
+        </ul>
+    </nav>
+</header>

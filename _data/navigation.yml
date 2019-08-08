@@ -1,0 +1,6 @@
+- name: Blog
+  link: /blog.html
+- name: Projects
+  link: /projects.html
+- name: Contact
+  link: /contact.html
