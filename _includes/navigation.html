@@ -5,7 +5,7 @@
     <nav>
         <ul class="nav-menu">
             {% for item in site.data.navigation %}
-            <a href="{{ item.link }}" {% if page.url == item.link %}style="text-decoration: underline;" {% endif %}>
+            <a href="{{ item.link }}" class="nav-menu-link {% if page.url == item.link %}current{% endif %}">
                 {{ item.name }}
             </a>
             {% endfor %}

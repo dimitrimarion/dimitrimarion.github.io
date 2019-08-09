@@ -91,6 +91,14 @@ a:visited {
 
 @media (min-width: 50em) {
 
+    .nav-menu-link:hover {
+        /*
+        color: white;
+        text-decoration: none;
+        background-color: var(--link-color);
+        */
+    }
+
     .nav-menu-link {
         padding: 0;
     }
