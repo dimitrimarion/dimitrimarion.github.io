@@ -5,7 +5,7 @@ title: Dimitri Marion
 <main class="main">
 
     <section class="intro">
-        <img src="./assets/images/me.png" alt="">
+        <img src="/assets/images/me.png" alt="">
         <h1 class="hello">Hi, I'm Dimitri Marion</h1>
         <p>
             I'm a Front-end developer and this is my website. I
@@ -17,23 +17,6 @@ title: Dimitri Marion
     <h2 class="latest">
         Latest Articles
     </h2>
-    <section>
-        <ul class="article-list">
-            <li class="article-list-item">
-                <time datetime="2019-1-2" class="article-date">2 January, 2019</time>
-                <a href="ff" class="article-list-link">Simple responsive blog layout</a>
-            </li>
-            <li class="article-list-item">
-                <time datetime="2019-1-2" class="article-date">2 January, 2019</time>
-                <a href="ff" class="article-list-link">How to become a Frond-end developer in 2019</a>
-            </li>
-            <li class="article-list-item">
-                <time datetime="2019-1-2" class="article-date">2 January, 2019</time>
-                <a href="ff" class="article-list-link">Introducing compare map</a> </li>
-            <li class="article-list-item">
-                <time datetime="2019-1-2" class="article-date">2 January, 2019</time>
-                <a href="ff" class="article-list-link">Simple responsive blog layout</a>
-            </li>
-        </ul>
-    </section>
+
+    {% include articles-list.html %}
 </main>
