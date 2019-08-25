@@ -1,6 +1,6 @@
 <section>
     <ul class="article-list">
-        {% for post in site.posts %}
+        {% for post in site.posts limit:3 %}
         <li class="article-list-item">
             <time datetime="{{ post.date }}" class="article-date">{{ post.date | date_to_string }}</time>
             <a href="{{ post.url }}" class="article-list-link">{{ post.title }}</a>
