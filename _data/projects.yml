@@ -1,0 +1,5 @@
+- name: compare-map
+  link: /comparemap
+  githublink: https://github.com/dimitrimarion/compare-map
+  description: This app lets you compare maps on the same scale. It can be useful to compare the size of differents cities.
+                You can also draw shapes on the map if you want to compare a specific area.
