@@ -6,6 +6,8 @@ title: How to Become a Front-end Developer in 2019
 
 Here's a detailed learning path of what I think is the best way to learn front-end web development. This learning path has a lot of similarities with the [Front-end handbook](https://frontendmasters.com/books/front-end-handbook/2019/). The handbook is really good, but I think it is a bit overwhelming as a beginner who doesn't know where to begin.
 
+<!--more-->
+
 If you're surprised there is no mention to the most used framework or library, it's on purpose. [You should learn the underlying technologies before learning the abstraction](https://youtu.be/QjKH1J77gjI). It's not even necessary to use frameworks or libraries nowadays for certain tasks thanks to the latest web standards and javascript. For example, [CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) or [Flexbox](https://developer.mozilla.org/en-US/docs/Glossary/Flexbox) can easily be used for layout instead of [Bootstrap](https://getbootstrap.com). You'll be a better developer in the end and you'll really understand what's happening behind the scenes.
 
 You'll see a lot of mentions to [Frontend Masters](https://frontendmasters.com). I'm not affiliated with them in any way, I just think it's one the best resources out there to learn web development.
