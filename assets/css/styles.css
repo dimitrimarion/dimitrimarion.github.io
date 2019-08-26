@@ -1,12 +1,7 @@
 :root {
     font-size: calc(1vw + 0.7em);
     --border-article: 1px solid lightgray;
-
-    /*--main-color: #657b83;*/
-    --main-color: #5c6e75;
     --main-color: #3a474b;
-    /*--main-background-color: #fdf6e3;
-    --main-background-color: #fffbf1;*/
     --main-background-color: #fff8e7;
     --link-color: #268bd2;
     --link-visited: #6c71c4;
@@ -61,6 +56,10 @@ img {
     body {
         margin: 0 auto;
     }
+}
+
+h1 {
+    font-size: 2rem;
 }
 
 h1, h2, p, main, header, ul {
@@ -213,4 +212,11 @@ strong {
 
 .projects > h2 {
     margin-bottom: 0.3em;
+}
+
+footer {
+    margin-top: 3em;
+    text-align: center;
+    font-size: 0.75rem;
+    color: rgb(129, 129, 129);
 }

@@ -5,7 +5,7 @@ title: Projects
 <main>
     <section class="projects">
         {% for item in site.data.projects %}
-        <h2><a href="{{ item.link }}">{{ item.name }}</a></h2>
+        <h2><a href="{{ item.link }}">{{ item.name }}</a> (<a href="{{ item.githublink }}">Github</a>)</h2>
         <p>{{ item.description }}</p>
         {% endfor %}
     </section>
