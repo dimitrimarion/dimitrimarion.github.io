@@ -23,6 +23,7 @@
         <p>&copy; {{ site.time | date: '%Y' }} Dimitri Marion - <a href="/feed.xml">RSS</a></p>
     </footer>
 
+    {% if jekyll.environment == "production" %}
     <!-- Fathom - simple website analytics - https://usefathom.com -->
     <script>
         (function(f, a, t, h, o, m){
@@ -38,4 +39,5 @@
         fathom('trackPageview');
     </script>
     <!-- / Fathom -->
+    {% endif %}
 </body>
