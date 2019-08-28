@@ -182,6 +182,18 @@ h2 {
     font-weight: 600;
 }
 
+.articles {
+    display: flex;
+}
+
+.articles > h2 {
+    margin-right: auto;
+}
+
+.articles > a {
+    font-size: 1.5rem;
+}
+
 .article-header {
     text-align: center;
 }

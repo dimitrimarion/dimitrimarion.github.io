@@ -10,3 +10,20 @@ defaults:
       layout: "default"
 
 excerpt_separator: <!--more-->
+
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+description: I'm a freelance Front-end developer and this is my website. I write about web development and share the projects I'm working on.
+url: www.dimitrimarion.com
+author: dimitrimarion
+twitter:
+  username: dimitrimarion
+  card: summary
+social:
+  name: Dimitri Marion
+  links:
+    - https://twitter.com/dimitrimarion
+    - https://github.com/dimitrimarion
+    - https://www.linkedin.com/in/dimitrimarion
