@@ -18,7 +18,7 @@ plugins:
 permalink: pretty
 
 description: I'm a freelance Front-end developer and this is my website. I write about web development and share the projects I'm working on.
-url: www.dimitrimarion.com
+url: https://www.dimitrimarion.com
 author: dimitrimarion
 twitter:
   username: dimitrimarion
