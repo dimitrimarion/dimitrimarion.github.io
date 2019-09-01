@@ -1,0 +1,129 @@
+:root {
+    font-size: calc(1vw + 0.6em);
+    --guesses-height: 80%;
+    --button-max-width: 100%;
+    --main-color: #444;
+    --hover-color: rgb(97, 97, 97);
+    --heading-height: 10%;
+    --control-height: 10%;
+}
+
+body {
+    color: var(--main-color);
+    font-family: sans-serif;
+}
+
+main {
+    margin: 0 auto;
+    max-width: 50em;
+    padding: 2em;
+    height: 100vh;
+}
+
+header {
+    text-align: center;
+    height: var(--heading-height);
+}
+
+h1 {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.guesses {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    height: var(--guesses-height);
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+    color: var(--main-color);
+}
+
+.guess {
+    flex: 1 0 20em;
+    margin-bottom: 0.5em;
+    font-size: 3rem;
+    max-width: var(--button-max-width);
+    font-family: 'Roboto Mono', monospace;
+
+    border: none;
+    border-radius: 0.15em;
+    background: linear-gradient(rgb(204, 204, 204),rgb(233, 233, 233));
+}
+
+.guess.correct {
+    background: linear-gradient(palegreen,rgb(186, 255, 186));
+}
+
+.guess.wrong {
+    background: linear-gradient(rgb(233, 54, 89), rgb(238, 98, 126))
+}
+
+.control {
+    height: var(--control-height);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.control-play {
+    padding: 0;
+    width: 8.5vh;
+    height: 8.5vh;
+    border-width: 4.25vh 0 4.25vh 7.5vh;
+    border-style: solid;
+    border-color: transparent transparent transparent var(--main-color);
+    background: transparent;
+}
+
+.control-play:hover {
+    border-color: transparent transparent transparent var(--hover-color);
+}
+
+.control-play.paused {
+    width: 8.5vh;
+    height: 8.5vh;
+    border-style: double;
+    border-width: 0 0 0 4.25vh;
+    border-color: var(--main-color);
+}
+
+.control-play.paused:hover {
+    border-color: var(--hover-color);
+}
+
+.redo {
+    padding: 0;
+    height: 8.5vh;
+    width: 8.5vh;
+    line-height: 8.5vh;
+    font-size: 5rem;
+    font-weight: bold; 
+    background: transparent;
+    border: none;
+    margin-right: 0.5em;
+}
+
+.redo:hover {
+    color: var(--hover-color);
+}
+
+@media (min-width: 40em) {
+    :root {
+        --button-max-width: 45%;
+        --guesses-height: 70%;
+        --heading-height: 15%;
+        --control-height: 15%;
+    }
+
+    .guess:nth-child(2n+1) {
+        margin-right: 5%;
+    }
+}
+
+/*# sourceMappingURL=/styles.5072464b.css.map */

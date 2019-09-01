@@ -1,3 +1,8 @@
+- name: ear-training
+  link: /eartraining
+  githublink: https://github.com/dimitrimarion/ear-training
+  description: ear-training randomly choose a frequency between 100Hz and 5000HZ. Find the right one among 4 choices.
+
 - name: compare-map
   link: /comparemap
   githublink: https://github.com/dimitrimarion/compare-map
