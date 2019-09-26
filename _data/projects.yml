@@ -1,3 +1,8 @@
+- name: Formi Search
+  link: https://www.formisearch.com
+  githublink: https://github.com/dimitrimarion/formi-search
+  description: Formi Search is a search engine to find ant species by country. It uses the AntWeb dataset via the GBIF API.
+
 - name: ear-training
   link: /eartraining
   githublink: https://github.com/dimitrimarion/ear-training
