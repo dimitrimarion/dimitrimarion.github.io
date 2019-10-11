@@ -62,7 +62,7 @@ h1 {
     font-size: 2rem;
 }
 
-h1, h2, p, main, header, ul {
+h1, h2, p, main, header, ul, code {
     margin-bottom: 1.5rem;
 }
 
@@ -231,4 +231,26 @@ footer {
     text-align: center;
     font-size: 0.75rem;
     color: rgb(129, 129, 129);
+}
+
+.highlight {
+    margin-bottom: 2em;
+}
+pre.highlight {
+    padding: 1em;
+    background-color: #f0f0f0;
+    border: 1px solid #dbdbdb;
+    border-radius: .2em;
+}
+
+pre {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+p > code {
+    background-color: #f0f0f0;
+    border: 1px solid #dbdbdb;
+    border-radius: .2em;
 }

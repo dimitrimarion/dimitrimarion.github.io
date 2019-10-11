@@ -16,6 +16,9 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
+  - rouge
+
+highlighter: rouge
 
 permalink: pretty
 
