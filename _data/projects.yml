@@ -3,6 +3,12 @@
   githublink: https://github.com/dimitrimarion/formi-search
   description: Formi Search is a search engine to find ant species by country. It uses the AntWeb dataset via the GBIF API.
 
+- name: React.js Boilerplate
+  link: https://github.com/dimitrimarion/react-parcel-boilerplate
+  githublink: https://github.com/dimitrimarion/react-parcel-boilerplate
+  description: Quick setup for React.js application using Parcel. It's a simple starter kit than you can easily extend.
+               Only "react" and "react-dom" are installed, you decide which router or state management library you want to use.
+
 - name: ear-training
   link: /eartraining
   githublink: https://github.com/dimitrimarion/ear-training
