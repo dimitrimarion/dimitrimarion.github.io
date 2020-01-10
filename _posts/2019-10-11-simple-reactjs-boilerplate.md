@@ -29,7 +29,7 @@ Bundle the application for production:
 ## Useful packages
 
 {:.styled-list}
-* [babel-plugin-module-resolver](https://github.com/tleunen/babel-plugin-module-resolver): this plugin simplify the import path in your project.
+* [babel-plugin-module-resolver](https://github.com/tleunen/babel-plugin-module-resolver): this plugin simplifies the import path in your project.
 
 ```javascript
 // Use this:
