@@ -1,8 +1,8 @@
 :root {
     font-size: calc(1vw + 0.7em);
     --border-article: 1px solid lightgray;
-    --main-color: #3a474b;
-    --main-background-color: #fff8e7;
+    --main-color: #000000;
+    --main-background-color: #fdf6e3;
     --link-color: #268bd2;
     --link-visited: #6c71c4;
     --article-date-color: rgb(129, 129, 129);
